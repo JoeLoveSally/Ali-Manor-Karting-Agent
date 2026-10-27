@@ -1,0 +1,20 @@
+{
+  "tests": {
+    "passed": 46,
+    "seconds": 8.64
+  },
+  "small_cpu_training": {
+    "status": "completed",
+    "iterations": 1,
+    "environments": 4,
+    "from_random": true,
+    "human_action_data": false
+  },
+  "note": "Smoke checks validate the standalone pipeline, not driving performance.",
+  "small_cpu_evaluation": {
+    "suites": 7,
+    "environments_per_suite": 4,
+    "max_time_seconds": 0.2,
+    "scope": "Pipeline smoke only; episodes intentionally timeout, not a performance benchmark."
+  }
+}

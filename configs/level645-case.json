@@ -1,0 +1,83 @@
+{
+  "schema": 1,
+  "name": "level645-late-bends",
+  "approved_for_training": true,
+  "scope": "Reconstructed local planar section only; not a complete level or independent collision ground truth",
+  "rectangles": [
+    [
+      -921.7999999999993,
+      -215.88334399490486,
+      911.054621031486,
+      215.88334399490486
+    ],
+    [
+      479.2879330416763,
+      -215.88334399490486,
+      911.054621031486,
+      838.6132850137892
+    ],
+    [
+      479.2879330416763,
+      406.8465970239795,
+      1740.192005543333,
+      838.6132850137892
+    ],
+    [
+      1308.4253175535232,
+      406.8465970239795,
+      1740.192005543333,
+      1432.5648036614439
+    ],
+    [
+      1308.4253175535232,
+      1000.7981156716342,
+      2478.2000000000007,
+      1432.5648036614439
+    ]
+  ],
+  "corners": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      695.1712770365812,
+      0.0
+    ],
+    [
+      695.1712770365812,
+      622.7299410188843
+    ],
+    [
+      1524.308661548428,
+      622.7299410188843
+    ],
+    [
+      1524.308661548428,
+      974.6947689053995
+    ]
+  ],
+  "start": [
+    0.0,
+    150.99476890539881
+  ],
+  "theta": 1.5707963267948966,
+  "finish": [
+    1,
+    974.6947689053995
+  ],
+  "source_origin": [
+    15921.8,
+    13675.3052310946
+  ],
+  "source_start_elapsed": 22.1904,
+  "outline_iou": 0.9951464533805847,
+  "approval_basis": [
+    "Visible top-surface outline reviewed; no path painting",
+    "Same recorded commands reproduce the inner-corner failure",
+    "Strict-clearance solvability must pass validation before remote launch"
+  ],
+  "source_sha256": {
+    "artifacts/diagnostics/survival-v2-bend-cause-20261025/outline.json": "2fda8721238cbf627eb7d8c04bcc9e9562eab527d8d665a15b7dd09093e5fcfa"
+  }
+}

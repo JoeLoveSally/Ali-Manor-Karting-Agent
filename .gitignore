@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+runs/
+outputs/
+data/raw/
+*.h264
+.env
+.env.*
+*.log

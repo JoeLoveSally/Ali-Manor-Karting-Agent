@@ -1,0 +1,67 @@
+{
+  "training_iterations": 1500,
+  "best_iteration": 700,
+  "training_seconds": 11029.992947816849,
+  "evaluation_seconds": 380.55,
+  "totals": {
+    "prior": 792,
+    "previous": 774,
+    "best": 802,
+    "last": 782
+  },
+  "rejection_reasons": [
+    {
+      "suite": "standard16",
+      "reference": "previous",
+      "best": 108,
+      "reference_passed": 112
+    },
+    {
+      "suite": "ramp",
+      "reference": "previous",
+      "best": 126,
+      "reference_passed": 128
+    },
+    {
+      "suite": "ramp",
+      "reference": "prior",
+      "best": 126,
+      "reference_passed": 128
+    },
+    {
+      "suite": "middle16",
+      "reference": "prior",
+      "best": 117,
+      "reference_passed": 124
+    }
+  ],
+  "independent_evaluation": {
+    "seed": 20261101,
+    "episodes_per_suite": 128,
+    "best_passed": {
+      "standard16": 108,
+      "long30": 102,
+      "bends16": 94,
+      "ramp": 126,
+      "relief": 128,
+      "middle16": 117,
+      "level645": 127
+    }
+  },
+  "phone_tests": [
+    {
+      "level": 646,
+      "outcome": "success",
+      "controller_seconds": 43.1377,
+      "decisions": 1090,
+      "model_sha256": "baaa250803368c48d7e07057b5fe8728093264a052570896cf060b962c3cec37"
+    },
+    {
+      "level": 647,
+      "outcome": "success",
+      "controller_seconds": 50.229,
+      "decisions": 993,
+      "model_sha256": "baaa250803368c48d7e07057b5fe8728093264a052570896cf060b962c3cec37"
+    }
+  ]
+}

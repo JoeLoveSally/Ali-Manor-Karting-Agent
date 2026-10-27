@@ -1,0 +1,7 @@
+numpy
+opencv-python-headless
+av
+torch
+scipy
+pillow
+imageio-ffmpeg
