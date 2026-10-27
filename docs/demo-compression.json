@@ -1,0 +1,56 @@
+[
+  {
+    "file": "1.gif",
+    "original_bytes": 117806361,
+    "compressed_bytes": 5301237,
+    "reduction_percent": 95.5,
+    "original": {
+      "width": 2334,
+      "height": 1540,
+      "duration_seconds": 11.12,
+      "frames": 163
+    },
+    "compressed": {
+      "width": 640,
+      "height": 422,
+      "duration_seconds": 11.1,
+      "frames": 111
+    }
+  },
+  {
+    "file": "2.gif",
+    "original_bytes": 205894048,
+    "compressed_bytes": 9217309,
+    "reduction_percent": 95.52,
+    "original": {
+      "width": 2334,
+      "height": 1540,
+      "duration_seconds": 14.13,
+      "frames": 203
+    },
+    "compressed": {
+      "width": 640,
+      "height": 422,
+      "duration_seconds": 14.1,
+      "frames": 141
+    }
+  },
+  {
+    "file": "3.gif",
+    "original_bytes": 143912855,
+    "compressed_bytes": 5751758,
+    "reduction_percent": 96.0,
+    "original": {
+      "width": 2334,
+      "height": 1540,
+      "duration_seconds": 9.88,
+      "frames": 146
+    },
+    "compressed": {
+      "width": 640,
+      "height": 422,
+      "duration_seconds": 9.9,
+      "frames": 99
+    }
+  }
+]
